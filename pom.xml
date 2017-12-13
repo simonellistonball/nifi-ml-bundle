@@ -19,18 +19,16 @@
     <parent>
         <groupId>org.apache.nifi</groupId>
         <artifactId>nifi-nar-bundles</artifactId>
-        <version>0.6.1</version>
+        <version>1.4.0</version>
     </parent>
 
     <groupId>com.simonellistonball.nifi</groupId>
     <artifactId>nifi-ml-bundle</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
         <module>nifi-OpenScoringProcessor-processors</module>
-        
-        
         <module>nifi-OpenScoringProcessor-nar</module>
     </modules>
 
