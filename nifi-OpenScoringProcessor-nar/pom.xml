@@ -16,18 +16,18 @@
 	<parent>
 		<groupId>com.simonellistonball.nifi</groupId>
 		<artifactId>nifi-ml-bundle</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.2-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>nifi-ml-nar</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>nar</packaging>
 
 	<dependencies>
 		<dependency>
 			<groupId>com.simonellistonball.nifi</groupId>
 			<artifactId>nifi-OpenScoringProcessor-processors</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>0.0.2-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 
@@ -36,7 +36,7 @@
 			<plugin>
 				<groupId>org.apache.nifi</groupId>
 				<artifactId>nifi-nar-maven-plugin</artifactId>
-				<version>1.1.0</version>
+				<version>1.2.0</version>
 				<extensions>true</extensions>
 			</plugin>
 		</plugins>

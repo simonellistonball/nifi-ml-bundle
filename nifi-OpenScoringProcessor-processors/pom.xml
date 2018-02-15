@@ -16,7 +16,7 @@
 	<parent>
 		<groupId>com.simonellistonball.nifi</groupId>
 		<artifactId>nifi-ml-bundle</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.2-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>nifi-OpenScoringProcessor-processors</artifactId>
@@ -75,5 +75,5 @@
 		</dependency>
 
 	</dependencies>
-	<groupId>com.simonellistonball.nifi</groupId>
+
 </project>
